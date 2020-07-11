@@ -1,16 +1,16 @@
-import firebase from "firebase/app";
-import "firebase/firestore";
-import "firebase/auth";
+import firebase from 'firebase/app';
+import 'firebase/firestore';
+import 'firebase/auth';
 
 const config = {
-  apiKey: "AIzaSyB3FZtKyTgvuC2zrvflVJxCmtyOP0pu0bk",
-  authDomain: "todos-auth-dbf7b.firebaseapp.com",
-  databaseURL: "https://todos-auth-dbf7b.firebaseio.com",
-  projectId: "todos-auth-dbf7b",
-  storageBucket: "todos-auth-dbf7b.appspot.com",
-  messagingSenderId: "273969417612",
-  appId: "1:273969417612:web:39dc19208ab915b5bb9aa9",
-  measurementId: "G-MSLDP7NX40",
+    apiKey: "AIzaSyC0PtmPwxOYaAKnGpk9W6NbqmBNGkskpUg",
+    authDomain: "todos-auth-f0900.firebaseapp.com",
+    databaseURL: "https://todos-auth-f0900.firebaseio.com",
+    projectId: "todos-auth-f0900",
+    storageBucket: "todos-auth-f0900.appspot.com",
+    messagingSenderId: "831631056184",
+    appId: "1:831631056184:web:8cecf7a37651436a1035cd",
+    measurementId: "G-64QWLVKM7K"
 };
 
 firebase.initializeApp(config);
